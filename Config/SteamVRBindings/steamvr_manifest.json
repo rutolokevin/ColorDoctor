@@ -168,7 +168,11 @@
 			"type": "vector1"
 		},
 		{
-			"name": "/actions/main/in/SpinThing axis",
+			"name": "/actions/main/in/SpinThingL axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SpinThingR axis",
 			"type": "vector1"
 		}
 	],
@@ -417,7 +421,8 @@
 			"/actions/main/in/MoveUp axis": "MoveUp",
 			"/actions/main/in/TurnRate axis": "TurnRate",
 			"/actions/main/in/LookUpRate axis": "LookUpRate",
-			"/actions/main/in/SpinThing axis": "SpinThing",
+			"/actions/main/in/SpinThingL axis": "SpinThingL",
+			"/actions/main/in/SpinThingR axis": "SpinThingR",
 			"/actions/main": "Main Game Actions"
 		}
 	]

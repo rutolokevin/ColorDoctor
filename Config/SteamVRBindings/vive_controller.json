@@ -8,24 +8,24 @@
 		{
 			"sources": [
 				{
-					"mode": "scalar_constant",
-					"path": "/user/hand/right/input/trigger",
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
-						"value":
+						"pull":
 						{
-							"output": "/actions/main/in/SpinThing axis"
+							"output": "/actions/main/in/SpinThingL axis"
 						}
 					}
 				},
 				{
-					"mode": "scalar_constant",
-					"path": "/user/hand/left/input/trigger",
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
-						"value":
+						"pull":
 						{
-							"output": "/actions/main/in/SpinThing axis"
+							"output": "/actions/main/in/SpinThingR axis"
 						}
 					}
 				}
